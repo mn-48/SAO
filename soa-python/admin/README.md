@@ -1,3 +1,4 @@
+```
 docker-compose up
 
 docker-compose down
@@ -15,3 +16,8 @@ docker exec -it web python manage.py createsuperuser
 
 
 localhost:8000
+
+
+sudo chown -R $USER:$USER data/db
+
+```
